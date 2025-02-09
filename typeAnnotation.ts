@@ -6,3 +6,4 @@ const birthdayHero = "Mlo Dev"
 const age = 30
 
 console.log(birthdayGreeter(birthdayHero,age))
+
