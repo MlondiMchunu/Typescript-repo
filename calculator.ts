@@ -1,6 +1,6 @@
 type Operation = 'multiply' | 'add' | 'divide'
 
-const calculator = (a: number, b: number, op: Operation) => {
+const calculator = (a: number, b: number, op: Operation):number | string => {
     if (op === 'multiply') {
         return a * b;
     } else if (op === 'add') {
@@ -11,4 +11,4 @@ const calculator = (a: number, b: number, op: Operation) => {
     }
 }
 
-console.log(calculator(7,4,'add'));
+console.log(calculator(7,4,'divide'));
