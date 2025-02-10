@@ -10,3 +10,5 @@ const calculator = (a: number, b: number, op: Operation) => {
         return a / b;
     }
 }
+
+console.log(calculator(7,4,'add'));
