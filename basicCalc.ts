@@ -1,4 +1,4 @@
-let string = "l";
+let string = 1;
 let number = 2;
 let result;
 
@@ -13,4 +13,4 @@ result = calculate(number, number);
 console.log("value: ", result, " type of ", typeof (result));
 
 result = calculate(number, string);
-console.log("value: ",result," type of",typeof(result));
+console.log("value: ", result, " type of", typeof (result));
