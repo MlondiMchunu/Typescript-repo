@@ -3,6 +3,8 @@ let number = 2;
 let result;
 
 const calculate = (a, b) => {
+
+    //use isInteger function of the number object
     if (Number.isInteger(a) === false || Number.isInteger(b) === false) {
         throw new Error("Invalid type: a parameter is not an interger!!");
     } else {
